@@ -1,2 +1,11 @@
-# Iterative-Document-Summarizer
-AI-powered tool that extracts text from PDF/DOCX files and generates summaries refined over multiple iterations for clarity and accuracy. Built with Python, LangChain, and Ollama (LLaMA 3), it offers length options, offline processing, and a Streamlit interface.
+**Iterative Document Summarizer** is a Python-based tool that extracts text from PDF (and optionally DOCX) files and generates refined summaries using the LLaMA 3 model via Ollama.  
+The system improves summaries through multiple refinement rounds to enhance clarity, accuracy, and completeness.
+---
+## Features
+- Extracts text from PDF and DOCX files
+- Generates initial summaries and iteratively refines them
+- Adjustable number of refinement iterations
+- Choose between short, medium, or detailed summaries
+- Saves final summaries to a `.txt` file
+- Web interface via Streamlit or run directly in Jupyter Notebook
+---
