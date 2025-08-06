@@ -2,8 +2,7 @@
 
 A simple Python web application that extracts text from PDF files and generates AI-powered summaries using iterative refinement with LLaMA 3.1 via Ollama.
 
-## ✨ Features
-
+## Features
 - **PDF Upload & Processing** - Extract text from PDF documents
 - **AI-Powered Summarization** - Uses LLaMA 3.1 model for intelligent summarization
 - **Iterative Refinement** - Improves summary quality through multiple refinement passes (1-5 iterations)
@@ -11,8 +10,6 @@ A simple Python web application that extracts text from PDF files and generates 
 - **Download Option** - Save final summary as text file
 - **Clean Web Interface** - Built with Streamlit for easy use
 - **Error Handling** - User-friendly messages and setup instructions
-
-## 🚀 Quick Start
 
 ### Prerequisites
 - Python 3.7+
@@ -46,7 +43,7 @@ A simple Python web application that extracts text from PDF files and generates 
 
 5. **Open your browser** and go to `http://localhost:8501`
 
-## 🎯 How to Use
+##  How to Use
 
 1. **Upload PDF** - Click "Choose a PDF file" and select your document
 2. **Set Iterations** - Use the slider to choose refinement passes (1-5)
@@ -54,7 +51,7 @@ A simple Python web application that extracts text from PDF files and generates 
 4. **View Results** - Compare initial vs refined summary side-by-side
 5. **Download** - Save the final summary using the download button
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Core Components
 - **Streamlit** - Web interface framework
@@ -68,12 +65,7 @@ A simple Python web application that extracts text from PDF files and generates 
 PDF Upload → Text Extraction → Initial Summary → Iterative Refinement → Final Output
 ```
 
-### Key Functions
-- `load_model()` - Initialize and cache Ollama model
-- `get_pdf_text()` - Extract text from PDF files
-- `create_summary()` - Generate and refine summaries iteratively
-
-## 📊 Performance
+##  Performance
 
 - **Small PDFs** (< 10 pages): ~30 seconds
 - **Medium PDFs** (10-50 pages): ~2-5 minutes  
@@ -81,17 +73,9 @@ PDF Upload → Text Extraction → Initial Summary → Iterative Refinement → 
 
 *Processing time depends on document size and number of refinement iterations*
 
-## 🤝 Contributing
+## Contributing
 
 This is a beginner-friendly project! Feel free to:
 - Report bugs
 - Suggest improvements
 - Submit pull requests
-
-## 📝 License
-
-MIT License - feel free to use this project for learning and development.
-
----
-
-**Built with ❤️ for learning AI application development**
